@@ -139,14 +139,19 @@ nav {
 
 /* Header starts here */
 .header {
+  padding: 4rem 0;
+  height: 100%;
+  /* background: url(/images/banner.jpg);
+  background-attachment: fixed;
+  background-size: cover; */
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(216, 255, 165),
+    rgb(0, 99, 77)
+  );
 }
 .banner {
   width: 100%;
-  padding: 4rem 0;
-  height: 100%;
-  background: url(/images/banner.jpg) no-repeat center;
-  background-attachment: fixed;
-  background-size: cover;
 }
 .banner__title {
   font-size: 4rem;
