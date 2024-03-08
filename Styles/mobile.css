@@ -427,6 +427,9 @@ main {
   align-items: center;
   gap: 1rem;
 }
+.cart__payment-methods a i:hover {
+  color: rgb(34, 34, 34);
+}
 @media (max-width: 400px) {
   .cart__payment-methods > div {
     display: inline-block;
