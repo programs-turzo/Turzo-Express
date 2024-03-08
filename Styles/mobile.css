@@ -139,14 +139,14 @@ nav {
 
 /* Header starts here */
 .header {
+}
+.banner {
+  width: 100%;
   padding: 4rem 0;
   height: 100%;
   background: url(/images/banner.jpg) no-repeat center;
   background-attachment: fixed;
   background-size: cover;
-}
-.banner {
-  width: 100%;
 }
 .banner__title {
   font-size: 4rem;
